@@ -297,6 +297,7 @@ button:active {
 
     .menu-button-active {
         height: 0;
+        z-index: 2;
     }
 
     .menu-button-active:before {
@@ -318,6 +319,7 @@ button:active {
         width: 250px;
         padding-bottom: 40px;
         display: none;
+        z-index: 1;
     }
 
     .header-active {
@@ -355,8 +357,7 @@ button:active {
     }
 
     .main-content {
-        margin-top: 285px;
-    }
+        margin-top: 270px;
 
     .main-title {
         font-size: 56px;
